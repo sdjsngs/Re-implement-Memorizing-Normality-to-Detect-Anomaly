@@ -2,8 +2,8 @@
 Re-implement paper Memorizing Normality to Detect Anomaly
 <br>dataset  
 
-1.uscd-ped2 
-  2.-training
+    1.uscd-ped2 
+    2.-training
     3.-frames
       4.-01
         #####-000.jpg
@@ -43,6 +43,8 @@ Avenue  same as uscd-ped2
       .
       .
       .s
+      
+  ***
  |Hyperparameter|              |
  | ---------- | :-----------:  |            
  |optimizer|sgd|
