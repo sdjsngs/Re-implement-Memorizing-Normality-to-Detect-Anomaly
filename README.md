@@ -1,5 +1,5 @@
 # Re-implement-Memorizing-Normality-to-Detect-Anomaly
-Re-implement paper Memorizing Normality to Detect Anomaly
+Re-implement paper  Memorizing Normality to Detect Anomaly:Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection
 
 
     uscd-ped2  
@@ -42,7 +42,7 @@ Re-implement paper Memorizing Normality to Detect Anomaly
         -2_label.mat
           .
           .
-          .s
+          .
 
   ***
  |Hyperparameter|              |
