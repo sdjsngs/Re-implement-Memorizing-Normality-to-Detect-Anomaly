@@ -21,17 +21,17 @@ Re-implement paper Memorizing Normality to Detect Anomaly
         -ped2.mat
 ***
 
-    Avenue  same as uscd-ped2 
+    Avenue  same as uscd-ped2  recommend rename some img file in Avenue from xxx.jpg to xxxx.jpg  
       -training
         -frames
           -01
-            -000.jpg
-            -001.jpg
+            -0000.jpg
+            -0001.jpg
               .
               .
               .
            -02
-            -000.jpg
+            -0000.jpg
               .
               .
               .
