@@ -3,47 +3,47 @@ Re-implement paper Memorizing Normality to Detect Anomaly
 
 
     uscd-ped2  
-            -training
-                -frames
-                            -01
-                                    -000.jpg
-                                    -001.jpg
-          .
-          .
-          .
-       -02
-        -000.jpg
-          .
-          .
-          .
-  -testing
-    -same as training
-  -ped2.mat
+        -training
+            -frames
+                -01
+                    -000.jpg
+                    -001.jpg
+                      .
+                      .
+                      .
+                -02
+                    -000.jpg
+                      .
+                      .
+                      .
+        -testing
+            -same as training
+        -ped2.mat
 ***
 
-Avenue  same as uscd-ped2 
-  -training
-    -frames
-      -01
-        -000.jpg
-        -001.jpg
+    Avenue  same as uscd-ped2 
+      -training
+        -frames
+          -01
+            -000.jpg
+            -001.jpg
+              .
+              .
+              .
+           -02
+            -000.jpg
+              .
+              .
+              .
+      -testing
+        -same as training
+      -testing_label_mask
+        -1_label.mat
+        -2_label.mat
           .
           .
-          .
-       -02
-        -000.jpg
-          .
-          .
-          .
-  -testing
-    -same as training
-  -testing_label_mask
-    -1_label.mat
-    -2_label.mat
-      .
-      .
-      .s
-      
+          .s
+
   ***
  |Hyperparameter|              |
  | ---------- | :-----------:  |            
