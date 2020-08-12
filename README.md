@@ -1,13 +1,13 @@
 # Re-implement-Memorizing-Normality-to-Detect-Anomaly
 Re-implement paper Memorizing Normality to Detect Anomaly
-<br>dataset  
 
-    1.uscd-ped2 
-    2.-training
-    3.-frames
-      4.-01
-        #####-000.jpg
-        -001.jpg
+
+    uscd-ped2  
+            -training
+                    -frames
+                            -01
+                                    -000.jpg
+                                    -001.jpg
           .
           .
           .
