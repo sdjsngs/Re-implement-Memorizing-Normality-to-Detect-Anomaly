@@ -1,7 +1,7 @@
 # Re-implement-Memorizing-Normality-to-Detect-Anomaly
 Re-implement paper Memorizing Normality to Detect Anomaly
 dataset
-uscd-ped2 
+1 uscd-ped2 
   -training
     -frames
       -01
@@ -41,7 +41,8 @@ Avenue  same as uscd-ped2
       .
       .
       .
- |Hyperparameter||
+ |Hyperparameter|              |
+ | ---------- | :-----------:  |            
  |optimizer|sgd|
  |init lr|0.01|
  |lr schedule|step /10  after 10 epoch|
