@@ -52,7 +52,7 @@ Re-implement paper Memorizing Normality to Detect Anomaly
  |lr schedule|step /10  after 10 epoch|
  |total epochs|40|
  
-  <br> model = AE 
+  AutoEncoder model preformence 
  |AUC|       in each video           | average in each video    |total auc|
  | ---------- | :-----------:  | :-----------:  | :-----------:  |
  |Avenue|                   |                       |     0.75   |
