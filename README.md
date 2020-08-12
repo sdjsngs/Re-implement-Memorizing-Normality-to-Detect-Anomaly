@@ -18,7 +18,7 @@ dataset
   -testing
     -same as training
   -ped2.mat
-  
+***
 Avenue  same as uscd-ped2 
   -training
     -frames
@@ -40,12 +40,12 @@ Avenue  same as uscd-ped2
     -2_label.mat
       .
       .
-      .
+      .s
  |Hyperparameter|              |
  | ---------- | :-----------:  |            
  |optimizer|sgd|
  |init lr|0.01|
  |lr schedule|step /10  after 10 epoch|
- |total epoch|40|
+ |total epochs|40|
  
 
