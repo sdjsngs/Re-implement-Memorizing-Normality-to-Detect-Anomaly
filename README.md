@@ -1,11 +1,11 @@
 # Re-implement-Memorizing-Normality-to-Detect-Anomaly
 Re-implement paper Memorizing Normality to Detect Anomaly
 dataset
-1 uscd-ped2 
-  -training
-    -frames
-      -01
-        -000.jpg
+#uscd-ped2 
+  ##-training
+    ###-frames
+      ####-01
+        #####-000.jpg
         -001.jpg
           .
           .
@@ -19,6 +19,7 @@ dataset
     -same as training
   -ped2.mat
 ***
+
 Avenue  same as uscd-ped2 
   -training
     -frames
