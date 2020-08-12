@@ -4,7 +4,7 @@ Re-implement paper Memorizing Normality to Detect Anomaly
 
     uscd-ped2  
             -training
-                    -frames
+                -frames
                             -01
                                     -000.jpg
                                     -001.jpg
