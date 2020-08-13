@@ -17,8 +17,7 @@ def parse_args():
         "--cfg",
         dest="cfg_file",
         help="path to config file (yaml type)",
-        # default=r"E:\kaggle\Anomaly-Detection\Re-implement-Temporal-Regularity/configs/Avenue.yaml",
-        default=r"E:\kaggle\Anomaly-Detection\Re-implement-Temporal-Regularity/configs/UCSD-Ped2.yaml",
+        default=r"configs/UCSD-Ped2.yaml",
         type=str,
     )
 
