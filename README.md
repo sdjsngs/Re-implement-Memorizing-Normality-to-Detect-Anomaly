@@ -64,5 +64,5 @@ Re-implement paper  Memorizing Normality to Detect Anomaly:Memory-augmented Deep
  |AUC|       in each video           | average in each video    |total auc|
  | ---------- | :-----------:  | :-----------:  | :-----------:  |
  |Avenue|                   |                       |        |
- |USCDped2|                         |        |                |
+ |USCDped2|                         |        |            0.83    |
 
