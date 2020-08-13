@@ -57,4 +57,11 @@ Re-implement paper  Memorizing Normality to Detect Anomaly:Memory-augmented Deep
  | ---------- | :-----------:  | :-----------:  | :-----------:  |
  |Avenue|                   |                       |     0.75   |
  |USCDped2|                         |        |              0.79   |
+ 
+  
+  AutoEncoder plus memory model + entropy loss   preformence 
+ |AUC|       in each video           | average in each video    |total auc|
+ | ---------- | :-----------:  | :-----------:  | :-----------:  |
+ |Avenue|                   |                       |        |
+ |USCDped2|                         |        |                |
 
