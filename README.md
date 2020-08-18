@@ -1,7 +1,13 @@
-# Re-implement-Memorizing-Normality-to-Detect-Anomaly
-Re-implement paper  Memorizing Normality to Detect Anomaly:Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection 
-<br> update ... 
 
+
+# Re-implement-Memorizing-Normality-to-Detect-Anomaly
+
+This project aim to Re-implement paper  
+Memorizing Normality to Detect Anomaly:Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection 
+# user's guidance
+
+dataset preparation 
+<br>rename the jpg file in each dataset to be  length  xxx.jpg or xxxx.jpg 
 
     uscd-ped2  
         -training
@@ -53,16 +59,20 @@ Re-implement paper  Memorizing Normality to Detect Anomaly:Memory-augmented Deep
  |lr schedule|step /10  after 10 epoch|
  |total epochs|40|
  
-  AutoEncoder model preformence 
+ ## eval result 
+this paper take the cuboid  score as the center  frame score , so it can not be test in each singel video ,
+for UCSDped2 and Avenue, some test video clip has full anomaly frame in [8:-7],  
+## AutoEncoder model preformence 
  |AUC|       in each video           | average in each video    |total auc|
  | ---------- | :-----------:  | :-----------:  | :-----------:  |
  |Avenue|                   |                       |     0.75   |
- |USCDped2|                         |        |              0.79   |
+ |UCSDped2|                         |        |              0.79   |
  
   
-  AutoEncoder plus memory model + entropy loss   preformence 
+## AutoEncoder plus memory model + entropy loss   preformence 
  |AUC|       in each video           | average in each video    |total auc|
  | ---------- | :-----------:  | :-----------:  | :-----------:  |
  |Avenue|                   |                       |        |
- |USCDped2|                         |        |            0.83    |
+ |UCSDped2|                         |        |            0.83    |
+
 
